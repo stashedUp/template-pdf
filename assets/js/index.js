@@ -4,7 +4,7 @@ var stripe = Stripe("pk_live_51J5gCBE6l9W8YrrlfPSKUM88YsrNfJM6jVSH8u8hSTqo8hKdtR
 var backEndUrl = 'https://stripe.downloadpdf.org';
 var domain = '<PRODUCT_LOWER>.downloadpdf.org'
 //var domain = 'localhost:8080'
-var priceID = '<PRODUCT_ID>'
+var priceID = '<PRICE_ID>'
 //var priceID = 'price_1J4bTLIqc7Y0dKXeXwelWs83'
 
 // When the form is submitted...
@@ -47,8 +47,6 @@ submitBtn.addEventListener('click', function (evt) {
     });
   });
 });
-
-    
 
 function validateEmail(email) {
   const email_regex = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
