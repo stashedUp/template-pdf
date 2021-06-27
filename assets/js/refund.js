@@ -52,7 +52,7 @@ function onSubmit(token) {
         contact_email: email,
         contact_name: product_id,
         message_content: com,
-        owner_email: "umesh.veerasingam@gmail.com"
+        owner_email: "support@downloadpdf.org"
       }),
     }).then(function (result) {
       console.log(result.status); // Will show you the status
